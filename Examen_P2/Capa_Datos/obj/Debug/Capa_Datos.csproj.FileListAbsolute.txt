@@ -1,0 +1,16 @@
+C:\Users\prueb\Desktop\Examen_P2\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\prueb\Desktop\Examen_P2\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\prueb\Desktop\Examen_P2\Capa_Datos\obj\Debug\Capa_Datos.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Examen_P2\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Examen_P2\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\prueb\Desktop\Examen_P2\Capa_Datos\obj\Debug\Capa_Datos.pdb
+C:\Users\ivan5\Desktop\Examen_P2\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\ivan5\Desktop\Examen_P2\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\ivan5\Desktop\Examen_P2\Capa_Datos\obj\Debug\Capa_Datos.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\Examen_P2\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\ivan5\Desktop\Examen_P2\Capa_Datos\obj\Debug\Capa_Datos.pdb
+C:\Users\ivan5\Desktop\Prototipo2P\Examen_P2\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\ivan5\Desktop\Prototipo2P\Examen_P2\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\ivan5\Desktop\Prototipo2P\Examen_P2\Capa_Datos\obj\Debug\Capa_Datos.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\Prototipo2P\Examen_P2\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\ivan5\Desktop\Prototipo2P\Examen_P2\Capa_Datos\obj\Debug\Capa_Datos.pdb
