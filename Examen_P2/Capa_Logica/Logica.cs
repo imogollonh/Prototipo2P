@@ -30,5 +30,20 @@ namespace Capa_Logica
         {
             return sn.Modificar(datos, campos);
         }
+
+        public OdbcDataReader consultaVendedor()
+        {
+            return sn.consultaVendedor();
+        }
+
+        public OdbcDataReader consultaLinea()
+        {
+            return sn.consultaLinea();
+        }
+
+        public OdbcDataReader consultaMarca()
+        {
+            return sn.consultaMarca();
+        }
     }
 }

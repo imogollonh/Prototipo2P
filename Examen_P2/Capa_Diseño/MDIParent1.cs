@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Capa_Diseño.Mantenimientos;
 
 namespace Capa_Diseño
 {
@@ -91,6 +92,76 @@ namespace Capa_Diseño
             foreach (Form childForm in MdiChildren)
             {
                 childForm.Close();
+            }
+        }
+
+        bool ventanaVendedores = false;
+        MantenimientoVendedores vendedor = new MantenimientoVendedores();
+        private void vendedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is MantenimientoVendedores);
+            if (ventanaVendedores == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    vendedor = new MantenimientoVendedores();
+                }
+
+                vendedor.MdiParent = this;
+                vendedor.Show();
+                Application.DoEvents();
+                ventanaVendedores = true;
+            }
+            else
+            {
+                vendedor.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaLinea = false;
+        MantenimientoLineas linea = new MantenimientoLineas();
+        private void lineasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is MantenimientoLineas);
+            if (ventanaLinea == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    linea = new MantenimientoLineas();
+                }
+
+                linea.MdiParent = this;
+                linea.Show();
+                Application.DoEvents();
+                ventanaLinea = true;
+            }
+            else
+            {
+                linea.WindowState = System.Windows.Forms.FormWindowState.Normal;
+            }
+        }
+
+        bool ventanaMarca = false;
+        MantenimientoMarcas marca = new MantenimientoMarcas();
+
+        private void marcasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frmC = Application.OpenForms.Cast<Form>().FirstOrDefault(x => x is MantenimientoMarcas);
+            if (ventanaMarca == false || frmC == null)
+            {
+                if (frmC == null)
+                {
+                    marca = new MantenimientoMarcas();
+                }
+
+                marca.MdiParent = this;
+                marca.Show();
+                Application.DoEvents();
+                ventanaMarca = true;
+            }
+            else
+            {
+                marca.WindowState = System.Windows.Forms.FormWindowState.Normal;
             }
         }
     }

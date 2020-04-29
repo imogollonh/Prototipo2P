@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mantenimientos\MantenimientoLineas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\MantenimientoLineas.Designer.cs">
+      <DependentUpon>MantenimientoLineas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\MantenimientoMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\MantenimientoMarcas.Designer.cs">
+      <DependentUpon>MantenimientoMarcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mantenimientos\MantenimientoVendedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mantenimientos\MantenimientoVendedores.Designer.cs">
+      <DependentUpon>MantenimientoVendedores.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDIParent1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +72,33 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\VistaLinea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VistaLinea.Designer.cs">
+      <DependentUpon>VistaLinea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VistaMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VistaMarcas.Designer.cs">
+      <DependentUpon>VistaMarcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VistaVendedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\VistaVendedores.Designer.cs">
+      <DependentUpon>VistaVendedores.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Mantenimientos\MantenimientoLineas.resx">
+      <DependentUpon>MantenimientoLineas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\MantenimientoMarcas.resx">
+      <DependentUpon>MantenimientoMarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mantenimientos\MantenimientoVendedores.resx">
+      <DependentUpon>MantenimientoVendedores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MDIParent1.resx">
       <DependentUpon>MDIParent1.cs</DependentUpon>
     </EmbeddedResource>
@@ -66,6 +111,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vistas\VistaLinea.resx">
+      <DependentUpon>VistaLinea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VistaMarcas.resx">
+      <DependentUpon>VistaMarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VistaVendedores.resx">
+      <DependentUpon>VistaVendedores.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -86,9 +140,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Mantenimientos\" />
     <Folder Include="Procesos\" />
-    <Folder Include="Vistas\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

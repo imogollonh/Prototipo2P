@@ -15,3 +15,11 @@ C:\Users\ivan5\Desktop\Examen_P2\Capa_Logica\obj\Debug\Capa_Logica.csprojAssembl
 C:\Users\ivan5\Desktop\Examen_P2\Capa_Logica\obj\Debug\Capa_Logica.csproj.CopyComplete
 C:\Users\ivan5\Desktop\Examen_P2\Capa_Logica\obj\Debug\Capa_Logica.dll
 C:\Users\ivan5\Desktop\Examen_P2\Capa_Logica\obj\Debug\Capa_Logica.pdb
+C:\Users\ivan5\Desktop\Prototipo2P\Examen_P2\Capa_Logica\bin\Debug\Capa_Logica.dll
+C:\Users\ivan5\Desktop\Prototipo2P\Examen_P2\Capa_Logica\bin\Debug\Capa_Logica.pdb
+C:\Users\ivan5\Desktop\Prototipo2P\Examen_P2\Capa_Logica\bin\Debug\Capa_Datos.dll
+C:\Users\ivan5\Desktop\Prototipo2P\Examen_P2\Capa_Logica\bin\Debug\Capa_Datos.pdb
+C:\Users\ivan5\Desktop\Prototipo2P\Examen_P2\Capa_Logica\obj\Debug\Capa_Logica.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\Prototipo2P\Examen_P2\Capa_Logica\obj\Debug\Capa_Logica.csproj.CopyComplete
+C:\Users\ivan5\Desktop\Prototipo2P\Examen_P2\Capa_Logica\obj\Debug\Capa_Logica.dll
+C:\Users\ivan5\Desktop\Prototipo2P\Examen_P2\Capa_Logica\obj\Debug\Capa_Logica.pdb

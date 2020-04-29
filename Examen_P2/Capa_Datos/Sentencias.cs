@@ -108,5 +108,59 @@ namespace Capa_Datos
                 return null;
             }
         }
+
+        public OdbcDataReader consultaVendedor()
+        {
+            try
+            {
+                cn.conexionbd();
+                string consulta = "SELECT * FROM vendedores WHERE estado = 1 ;";
+                comm = new OdbcCommand(consulta, cn.conexionbd());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
+
+        public OdbcDataReader consultaLinea()
+        {
+            try
+            {
+                cn.conexionbd();
+                string consulta = "SELECT * FROM lineas WHERE estado = 1 ;";
+                comm = new OdbcCommand(consulta, cn.conexionbd());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
+
+        public OdbcDataReader consultaMarca()
+        {
+            try
+            {
+                cn.conexionbd();
+                string consulta = "SELECT * FROM marcas WHERE estado = 1 ;";
+                comm = new OdbcCommand(consulta, cn.conexionbd());
+                OdbcDataReader mostrar = comm.ExecuteReader();
+                return mostrar;
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+                return null;
+            }
+
+        }
     }
 }
